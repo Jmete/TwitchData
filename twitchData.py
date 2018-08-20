@@ -24,7 +24,7 @@ def get_video_link(c):
     tn = tn[1].split('preview')[0][:-1]
 
     # Create the video link using standard template and dynamic info that we just got.
-    videoLink = "https://clips-media-assets.twitch.tv/" + tn + ".mp4"
+    videoLink = "https://clips-media-assets2.twitch.tv/" + tn + ".mp4"
     return videoLink
 
 
